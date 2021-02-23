@@ -6,11 +6,9 @@ fn main() {
     println!("Raad maar raak!");
     
     let secret_number = rand::thread_rng().gen_range(1, 1001);
-    
-    println!("Je geheim nummer is: {}", secret_number);
 
     loop {
-        println!("Geef ons een nummer.");
+        println!("Geef ons een nummer, tussen 0 en 1000.");
     
         let mut guess = String::new();
     
